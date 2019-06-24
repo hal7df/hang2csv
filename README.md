@@ -10,7 +10,11 @@ At present, hang2csv only supports Python 2.7.
 ## Usage
 
 ```
-python hang2csv [-z] <Hangouts.json>
+python hang2csv.py [-z] <Hangouts.json>
+```
+Or, if Python is in your `PATH`:
+```
+./hang2csv.py [-z] <Hangouts.json>
 ```
 
 The JSON file should be named `Hangouts.json` in the ZIP file, but any JSON file
